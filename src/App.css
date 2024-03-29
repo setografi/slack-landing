@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.vertical-line {
+  position: relative;
+}
+
+.vertical-line::after {
+  content: "";
+  position: absolute;
+  top: -16px;
+  right: 0;
+  width: 2px;
+  height: 70px;
+  background-color: #000;
+}
+
+.double-vertical {
+  position: relative;
+}
+
+.double-vertical::after {
+  content: "";
+  position: absolute;
+  top: -22px;
+  right: 0;
+  width: 2px;
+  height: 70px;
+  background-color: #000;
+}
+
+.double-vertical::before {
+  content: "";
+  position: absolute;
+  top: -22px;
+  left: 0;
+  width: 2px;
+  height: 70px;
+  background-color: #000;
+}
