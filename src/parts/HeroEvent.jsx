@@ -22,26 +22,14 @@ export default function HeroEvent() {
             </p>
 
             <div className="flex flex-col md:flex-row mt-10 md:mt-12 lg:mt-14 gap-5 md:gap-7">
-              <Button
-                buttonname={"Email Signup"}
-                backgroundColor="#000000"
-                textColor="#FFFFFF"
-                hoverBackground="#FFFFFF"
-                hoverTextColor="#000000"
-              />
+              <Button isBlack>Email Signup</Button>
 
-              <Button
-                buttonname={
-                  <div className="flex flex-row items-center gap-2 hover:bg-transparent">
-                    <i className="ri-google-line"></i>
-                    <p>Google Signup</p>
-                  </div>
-                }
-                backgroundColor="#FFFFFF"
-                textColor="#000000"
-                hoverBackground="#000000"
-                hoverTextColor="#FFFFFF"
-              />
+              <Button isWhite>
+                <div className="flex flex-row items-center gap-2">
+                  <i className="ri-google-line"></i>
+                  <p>Google Signup</p>
+                </div>
+              </Button>
             </div>
           </div>
         </div>
