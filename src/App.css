@@ -50,3 +50,13 @@ body {
   height: 70px;
   background-color: #000;
 }
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  .image-semicircle {
+    left: 24rem;
+  }
+
+  .image-line {
+    right: 29rem;
+  }
+}

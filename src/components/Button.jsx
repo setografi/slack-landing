@@ -1,6 +1,6 @@
 import React from "react";
 
-function Button({ children, backgroundColor, isBlack, isWhite }) {
+function Button({ children, isBlack, isWhite }) {
   return (
     <div className="relative top-0 group">
       <button

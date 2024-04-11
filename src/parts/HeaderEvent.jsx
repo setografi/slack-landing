@@ -4,7 +4,7 @@ import BrandLogo from "../assets/Brand.png";
 export default function HeaderEvent() {
   return (
     <>
-      <div className="fixed top-0 left-0 bg-WhiteBack w-full grid grid-flow-col justify-between mx-auto border-b-2 border-black">
+      <div className="fixed top-0 left-0 bg-WhiteBack w-full grid grid-flow-col justify-between mx-auto border-b-2 border-black z-20">
         <div className="flex justify-start items-center py-4">
           <div className="vertical-line px-6">
             <img
