@@ -93,7 +93,7 @@ export default function HeaderEvent() {
 
         <div className="flex lg:hidden items-center">
           <a
-            className="font-medium text-base text-BlackTextTwo px-6 hover:text-PurpleBack"
+            className="font-bold text-2xl text-BlackTextTwo px-6 hover:text-PurpleBack"
             href="#"
           >
             <i className="ri-menu-line"></i>
