@@ -66,28 +66,28 @@ export default function HeaderEvent() {
 
         <div className="hidden lg:flex justify-end items-center">
           <div className="double-vertical px-3">
-            <a className="text-base text-BlackTextTwo px-3" href="#">
+            <button className="text-base text-BlackTextTwo px-3" href="#">
               <i className="ri-search-line font-bold"></i>
-            </a>
+            </button>
           </div>
 
           <div className="px-3 py-4">
-            <a
+            <button
               className="flex flex-row items-center font-syne font-medium text-base text-BlackTextTwo px-3 gap-2"
               href="#"
             >
               <i className="ri-headphone-line font-bold"></i>
               <p>Talk To Sales</p>
-            </a>
+            </button>
           </div>
 
           <div className="bg-BlackTextTwo h-full flex items-center px-3 py-4">
-            <a
+            <button
               className="font-syne font-medium text-base text-WhiteBack px-3"
               href="#"
             >
               Login / Register
-            </a>
+            </button>
           </div>
         </div>
 
